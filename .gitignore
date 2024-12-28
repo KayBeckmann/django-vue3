@@ -1,2 +1,6 @@
 node_modules/
 src/static/vue-dev/
+local-cdn/
+__pycache__/
+.DS_Store
+*.py[cod]
