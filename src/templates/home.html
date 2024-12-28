@@ -1,0 +1,11 @@
+ {% extends 'base.html' %}
+ {% load static %}
+
+{% block content %}
+<h1>Hello HOME</h1>
+
+{% for file in vue_js_paths %}
+ <script src="{% static file %}"></script>
+{% endfor %}
+
+{% endblock %}
