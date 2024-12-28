@@ -1,5 +1,6 @@
 node_modules/
 src/static/vue-dev/
+src/static/vue-prod/
 local-cdn/
 __pycache__/
 .DS_Store
