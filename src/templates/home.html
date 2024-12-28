@@ -2,6 +2,6 @@
  {% load static %}
 
 {% block content %}
-<div id="app" data-token="abc"></div>
+<div id="app" data-token="{{ csrf_token }}"></div>
 
 {% endblock %}
